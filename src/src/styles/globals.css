@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #5856D6;
+  --color-primary-50: #F4F4FF;
+  --color-primary-100: #E8E7FF;
+  --color-primary-500: #5856D6;
+  --color-primary-600: #4A49C2;
+  --color-primary-900: #282787;
+  --color-primary-foreground: #FFFFFF;
+  --color-secondary: #AEAEB2;
+  --color-secondary-foreground: #FFFFFF;
+  --color-accent: #5856D6;
+  --color-accent-foreground: #FFFFFF;
+  --color-background: #F2F2F7;
+  --color-foreground: #000000;
+  --color-surface: #FFFFFF;
+  --color-surface-foreground: #000000;
+  --color-card: #FFFFFF;
+  --color-card-foreground: #000000;
+  --color-muted: #F2F2F7;
+  --color-muted-foreground: #3C3C43;
+  --color-border: #E5E5EA;
+  --color-input: #FFFFFF;
+  --color-ring: #5856D6;
+  --color-error: #FF3B30;
+  --color-success: #30D158;
+  
+  --glass-bg: rgba(255, 255, 255, 0.75);
+  --glass-border: rgba(255, 255, 255, 0.9);
+  --shadow-glass: 0 8px 32px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --shadow-card: 0 8px 32px rgba(88, 86, 214, 0.08), 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-button: 0 2px 8px rgba(88, 86, 214, 0.15), 0 1px 2px rgba(88, 86, 214, 0.1);
+  
+  --radius-card: 1.25rem;
+  --radius-button: 1rem;
+  --radius-input: 0.75rem;
+  --radius-modal: 1.5rem;
+}
+
+.dark {
+  --color-primary: #5E5CE6;
+  --color-primary-50: #1D1C2B;
+  --color-primary-100: #232238;
+  --color-primary-500: #5E5CE6;
+  --color-primary-600: #7B79FF;
+  --color-primary-900: #D6D4FF;
+  --color-background: #000000;
+  --color-foreground: #FFFFFF;
+  --color-surface: #1C1C1E;
+  --color-surface-foreground: #FFFFFF;
+  --color-card: #1C1C1E;
+  --color-card-foreground: #FFFFFF;
+  --color-muted: #2C2C2E;
+  --color-muted-foreground: #EBEBF5;
+  --color-border: #38383A;
+  --color-input: #1C1C1E;
+  --color-ring: #5E5CE6;
+  
+  --glass-bg: rgba(28, 28, 30, 0.8);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --shadow-glass: 0 8px 32px rgba(0, 0, 0, 0.4), 0 1px 3px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.2);
+  --shadow-button: 0 2px 8px rgba(94, 92, 230, 0.3), 0 1px 2px rgba(94, 92, 230, 0.2);
+}
+
+@theme {
+  --color-primary: var(--color-primary);
+  --color-primary-50: var(--color-primary-50);
+  --color-primary-100: var(--color-primary-100);
+  --color-primary-500: var(--color-primary-500);
+  --color-primary-600: var(--color-primary-600);
+  --color-primary-900: var(--color-primary-900);
+  --color-primary-foreground: var(--color-primary-foreground);
+  --color-secondary: var(--color-secondary);
+  --color-secondary-foreground: var(--color-secondary-foreground);
+  --color-accent: var(--color-accent);
+  --color-accent-foreground: var(--color-accent-foreground);
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-foreground);
+  --color-surface: var(--color-surface);
+  --color-surface-foreground: var(--color-surface-foreground);
+  --color-card: var(--color-card);
+  --color-card-foreground: var(--color-card-foreground);
+  --color-muted: var(--color-muted);
+  --color-muted-foreground: var(--color-muted-foreground);
+  --color-border: var(--color-border);
+  --color-input: var(--color-input);
+  --color-ring: var(--color-ring);
+  --color-error: var(--color-error);
+  --color-success: var(--color-success);
+  --radius-card: var(--radius-card);
+  --radius-button: var(--radius-button);
+  --radius-input: var(--radius-input);
+  --radius-modal: var(--radius-modal);
+  --shadow-glass: var(--shadow-glass);
+  --shadow-card: var(--shadow-card);
+  --shadow-button: var(--shadow-button);
+}
